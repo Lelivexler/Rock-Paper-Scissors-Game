@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="GAME.css">
+</head>
+
+<body>
+    <div class="allContainer">
+        <p class="title">Rock Paper Scissors Game</p>
+        <p class="subtitle">press your move:</p>
+        <button onclick="playGame('rock');" class="moveButton"><img src="icons/rock.png" class="moveIcon"></button>
+
+        <button onclick="playGame('paper');" class="moveButton"><img src="icons/paper.png" class="moveIcon"></button>
+
+        <button onclick="playGame('scissors');" class="moveButton"><img src="icons/scissors.png"
+                class="moveIcon"></button>
+
+        <!--פסקה שמציגה את התוצאות על הדף עצמו-->
+        <p class="result"></p>
+        <!--פסקה שמציגה את הצעדים של המשתמש ושל המחשב על הדף עצמו-->
+        <p class="moves"></p>
+        <!--פסקה שמציגה הניקוד-->
+        <p class="scoreSection"></p>
+
+        <!--כפתור שכשלוחצים עליו מתעדכן כל הניקוד לאפס, מתעדכן גם האחסון לאפס ומתעדכן גם הכיתוב של הניקוד על הדף עצמו לאפס-->
+        <button class="resetButton" onclick="
+        score.wins = 0;
+        score.loses = 0;
+        score.ties = 0;
+        //אם עושים ריסט נרצה למחוק גם בהאחסון כדי שנחזור לאפס ולא יישמר הסיבובים הקודמים של המשחק
+        localStorage.removeItem('score');
+        updateScoreElement();
+        ">Reset Score</button>
+    </div>
+    <script src="GAME.js"> </script>
+</body>
+
+</html>
