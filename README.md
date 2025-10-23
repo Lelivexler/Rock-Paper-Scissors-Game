@@ -5,7 +5,7 @@ The project allows the user to play against the computer in a classic game of ch
 
 ---
 
-## 🎮 Features
+## Features
 - Clean and responsive layout built with CSS  
 - Interactive gameplay logic implemented in JavaScript  
 - Dynamic score updates after each round  
@@ -14,7 +14,7 @@ The project allows the user to play against the computer in a classic game of ch
 
 ---
 
-## 🧠 How It Works
+## How It Works
 - The player selects **rock**, **paper**, or **scissors**  
 - The computer randomly chooses its move  
 - The game compares both choices and determines the winner  
@@ -22,18 +22,13 @@ The project allows the user to play against the computer in a classic game of ch
 
 ---
 
-## 🌐 Live Demo
-View the project here:  
-👉 [Rock Paper Scissors Game](https://lelivexler.github.io/Rock-Paper-Scissors-Game/)
+## Live Demo
+ 
+ [Rock Paper Scissors Game](https://lelivexler.github.io/Rock-Paper-Scissors-Game/)
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **HTML** – for structure  
 - **CSS** – for layout and styling  
 - **JavaScript** – for game logic and interactivity
-
----
-
-## 📄 Author
-Developed by **Lelivexler** as a personal front-end practice project.
