@@ -25,10 +25,3 @@ The project allows the user to play against the computer in a classic game of ch
 ## Live Demo
  
  [Rock Paper Scissors Game](https://lelivexler.github.io/Rock-Paper-Scissors-Game/)
-
----
-
-## Technologies Used
-- **HTML** – for structure  
-- **CSS** – for layout and styling  
-- **JavaScript** – for game logic and interactivity
